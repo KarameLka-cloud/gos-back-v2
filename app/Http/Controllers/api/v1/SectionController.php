@@ -12,16 +12,4 @@ class SectionController extends Controller
     {
         return Section::with('children')->get();
     }
-//    public function index(Request $request)
-//    {
-//        $id = $request->get('id');
-//        return Section::all();
-//    }
-//
-//    public function show(Request $request)
-//    {
-//        $id = $request->input('id');
-//        $section = Section::find($id);
-//        return response()->json($section);
-//    }
 }
